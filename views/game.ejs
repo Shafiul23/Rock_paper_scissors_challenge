@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <form action="/turn" method="post">
+        <h1>
+            <%= name %>, make a choice!
+        </h1>
+        <p>- Scissors cuts paper,<br> - paper covers rock, <br> - rock crushes lizard,<br> - lizard poisons Spock, <br>-
+            Spock
+            smashes
+            scissors,<br> - scissors
+            - decapitates lizard, <br>- lizard eats paper, <br>- paper disproves Spock, <br>- Spock vaporizes rock,
+            <br>- and as
+            it always has,
+            rock crushes
+            scissors.
+        </p>
+        <input id="rock-submit" type="submit" id="rock" name="choice" value="rock">
+        <input id="paper-submit" type="submit" id="paper" name="choice" value="paper">
+        <input id="scissors-submit" type="submit" id="scissors" name="choice" value="scissors">
+        <input id="lizard-submit" type="submit" id="lizard" name="choice" value="lizard">
+        <input id="spock-submit" type="submit" id="spock" name="choice" value="spock">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <form action="/game" method="get">
+        <h1>You picked: <%= userOption%>
+        </h1>
+        <h1>The computer chose: <%= compChoice %>
+        </h1>
+        <h1>
+            Outcome: <%=decider%>
+        </h1>
+    </form>
+
+    <button id="next-game">
+        <a href="/game"> New game! </a>
+    </button>
+    </br>
+    <button id="exit-link">
+        <a id="exit-link" href="/">Return Home</a>
+    </button>
+</body>
+
+</html>
